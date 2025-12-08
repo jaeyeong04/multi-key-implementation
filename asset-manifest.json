@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/multi-key-implementation/static/css/main.957edfdb.css",
+    "main.js": "/multi-key-implementation/static/js/main.07020a6d.js",
+    "static/js/593.4ac4eaeb.chunk.js": "/multi-key-implementation/static/js/593.4ac4eaeb.chunk.js",
+    "index.html": "/multi-key-implementation/index.html",
+    "main.957edfdb.css.map": "/multi-key-implementation/static/css/main.957edfdb.css.map",
+    "main.07020a6d.js.map": "/multi-key-implementation/static/js/main.07020a6d.js.map",
+    "593.4ac4eaeb.chunk.js.map": "/multi-key-implementation/static/js/593.4ac4eaeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.957edfdb.css",
+    "static/js/main.07020a6d.js"
+  ]
+}
