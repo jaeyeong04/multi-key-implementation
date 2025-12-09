@@ -2,7 +2,6 @@ import "./App.css";
 import { useCallback, useEffect } from "react";
 
 function App() {
-  //눌린 키들을 저장하는 상태 변수
   const handleKeyDown = useCallback((event: KeyboardEvent) => {
     if (event.ctrlKey && event.key === "s") {
       event.preventDefault(); //브라우저의 기본 동작 방지
@@ -15,7 +14,7 @@ function App() {
   }, []);
   //키보드 이벤트 리스너 등록 및 해제
   useEffect(() => {
-    //키보드 press 이벤트 리스너 등록 및 해제
+    //키보드 keydown 이벤트 리스너 등록 및 해제
     window.addEventListener("keydown", handleKeyDown);
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
