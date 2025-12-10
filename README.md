@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# 웹 커스텀 단축키 구현 데모
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> React의 Hook을 활용하여 성능 최적화에 초점을 맞춘 커스텀 단축키 구현 예제입니다.
 
-## Available Scripts
+- 이 레포지토리는 아래 블로그 포스팅의 예제를 담고 있습니다. 자세한 구현 설명 및 코드 분석은 아래 블로그를 참고해주세요.
 
-In the project directory, you can run:
+### [[React] useEffect와 useCallback 함수로 웹 커스텀 단축키 구현하기](https://jaeyeong04.tistory.com/12)
 
-### `npm start`
+- 배포 주소: https://jaeyeong04.github.io/multi-key-implementation/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 실행 방법
 
-### `npm test`
+```
+git clone https://github.com/jaeyeong04/multi-key-implementation.git
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 기술 스택
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 주요 기능
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+|  단축키   |              동작              |                  목적                  |
+| :-------: | :----------------------------: | :------------------------------------: |
+| Ctrl + s  | alert창 표시 및 기본 동작 무시 | event.preventDefault()를 보여주는 예시 |
+| Shift + j |          alert창 표시          |   커스텀 단축키 등록을 보여주는 예시   |
+| Ctrl + ↑  |     count라는 state update     |        커스텀 단축키 응용 예시         |
